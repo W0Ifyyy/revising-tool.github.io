@@ -275,7 +275,7 @@ body {
 
 @media (max-width: 1070px) {
   #header {
-    width: 305px;
+    width: 290px;
     height: 70px;
     animation: auth-load 2s;
   }
@@ -287,7 +287,7 @@ body {
   }
 
   #author-window {
-    width: 325px;
+    width: 300px;
     height: 550px;
     animation: auth-load 2s;
   }
@@ -316,13 +316,14 @@ body {
   }
 
   #mid-part {
-    width: 325px;
+    transform: scale(0.8);
+    width: 350px;
     height: 500px;
     animation: auth-load 2s;
   }
 
   #description {
-    width: 325px;
+    width: 310px;
     height: 550px;
     animation: auth-load 2s;
   }
@@ -332,7 +333,7 @@ body {
   }
 
   #footer {
-    width: 305px;
+    width: 290px;
     height: 70px;
     animation: auth-load 2s;
     margin-bottom: 15vw;
