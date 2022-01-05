@@ -316,15 +316,12 @@ body {
   }
 
   #mid-part {
-    transform: scale(0.8);
-    width: 350px;
-    height: 500px;
     animation: auth-load 2s;
   }
 
   #description {
     width: 310px;
-    height: 550px;
+    height: 360px;
     animation: auth-load 2s;
   }
 
