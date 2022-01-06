@@ -136,6 +136,15 @@ body {
   }
 }
 
+@keyframes auth-load2 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
+}
+
 @keyframes des-load {
   0% {
     transform: translateX(250%);
@@ -295,7 +304,7 @@ body {
   #header {
     width: 290px;
     height: 70px;
-    animation: auth-load 2s;
+    animation: auth-load2 2s;
   }
 
   #wrapper-mid {
@@ -307,7 +316,7 @@ body {
   #author-window {
     width: 300px;
     height: 550px;
-    animation: auth-load 2s;
+    animation: auth-load2 2s;
   }
 
   #author-window img {
@@ -336,7 +345,7 @@ body {
   #mid-part {
     margin-top: 40px;
     border-radius: 0;
-    animation: auth-load 2s;
+    animation: auth-load2 2s;
     width: 290px;
     font-family: "Sansita", sans-serif;
     color: rgb(0, 0, 0);
@@ -375,7 +384,7 @@ body {
   #description {
     width: 310px;
     height: 360px;
-    animation: auth-load 2s;
+    animation: auth-load2 2s;
   }
 
   #description p {
@@ -386,7 +395,7 @@ body {
     margin-top: 40px;
     width: 290px;
     height: 70px;
-    animation: auth-load 2s;
+    animation: auth-load2 2s;
     margin-bottom: 15vw;
   }
 }
