@@ -380,6 +380,7 @@ body {
   }
 
   #footer {
+    margin-top: 40px;
     width: 290px;
     height: 70px;
     animation: auth-load 2s;
