@@ -334,6 +334,7 @@ body {
   }
 
   #mid-part {
+    margin-top: 40px;
     border-radius: 0;
     animation: auth-load 2s;
     width: 290px;
