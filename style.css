@@ -302,6 +302,7 @@ body {
 
 @media (max-width: 1090px) {
   #header {
+    margin-top: 20px;
     width: 290px;
     height: 70px;
     animation: auth-load2 2s;
