@@ -343,6 +343,9 @@ body {
     background-color: rgb(255, 255, 255);
     height: 60px;
   }
+  #mid-part:hover {
+    background-color: rgb(190, 190, 190);
+  }
   #mid-part iframe {
     display: none;
   }
