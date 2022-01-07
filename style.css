@@ -17,7 +17,7 @@ body {
   transition: 1s ease;
   margin-left: auto;
   margin-right: auto;
-  animation: h-load 2s;
+  animation: h-load 1.5s;
 }
 
 #header:hover {
@@ -37,7 +37,7 @@ body {
   text-align: center;
   background-color: rgb(255, 255, 255);
   border: solid 10px rgb(0, 0, 0);
-  animation: auth-load 2s;
+  animation: auth-load 1.5s;
   transition: 1s ease;
 }
 
@@ -72,7 +72,7 @@ body {
   transition: 0.5s ease;
   margin-left: auto;
   margin-right: auto;
-  animation: appear 2s;
+  animation: appear 1.5s;
 }
 
 #mid-part a {
@@ -88,7 +88,7 @@ body {
   font-size: 22.5px;
   background-color: rgb(255, 255, 255);
   border: solid 10px rgb(0, 0, 0);
-  animation: des-load 2s;
+  animation: des-load 1.5s;
   transition: 1s ease;
 }
 
@@ -108,7 +108,7 @@ body {
   margin-left: auto;
   margin-right: auto;
   margin-top: 7vh;
-  animation: footer-load 2s;
+  animation: footer-load 1.5s;
   transition: 1s ease;
   font-family: "Sansita", sans-serif;
   text-align: center;
