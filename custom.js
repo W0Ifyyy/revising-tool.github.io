@@ -43,18 +43,7 @@ $(document).ready(function () {
     color[0] = `rgb(${a},${a},${a})`;
   }
 
-  // function checkMe() {
-  //   let cb = document.getElementsByClassName("buttonC");
-  //   if (cb.checked == true) {
-  //     setInterval(randomColorD, 4900);
-  //     clearInterval(randomColorW);
-  //   } else {
-  //     setInterval(randomColorW, 4900);
-  //     clearInterval(randomColorD);
-  //   }
-  // }
-
-  setInterval(randomColorW, 4900);
+  setInterval(randomColorD, 4900);
   setInterval(changeColor, 5000);
 
   // let x = 0;
