@@ -4,56 +4,45 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Test Discord" />
-    <meta name="keywords" content="Discord, W0Ifyy, Discord Servers" />
+    <title>Document</title>
     <link rel="stylesheet" href="style.css" />
-    <title>Koks Serwer - Discord Server</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Sansita&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
-    <div id="header"><h1>Koks Discord</h1></div>
-    <div id="wrapper-mid">
-      <div id="author-window">
-        <h1>Author</h1>
-        <img src="somth.png" alt="auth-img" />
-        <p>W0Ifyy</p>
-      </div>
-      <div id="mid-part">
-        <iframe
-          src="https://discord.com/widget?id=885212077701091346&theme=dark"
-          width="350"
-          height="500"
-          allowtransparency="true"
-          frameborder="0"
-          sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"
-        ></iframe>
-        <a href="https://discord.gg/hGPAMv8azw" target="_blank"
-          ><b>Join to a discord!</b></a
-        >
-      </div>
-      <div id="description">
-        <h1>About</h1>
+    <div id="header"><h1>Revising tool</h1></div>
+    <div id="container">
+      <div id="main">
+        <div id="add_question">
+          <span>Question:</span>
+          <input
+            type="text"
+            id="p_txt"
+            placeholder="Enter your question"
+          /><br />
+          <br />
+          <span>Odpowiedz:</span>
+          <input type="text" id="o_txt" placeholder="Enter your answer" />
+          <input type="button" value="Add" id="add_q" />
+        </div>
         <br />
-        <p>
-          Join<br />
-          Talk <br />
-          Chat<br />
-        </p>
+        <div id="play_b_div">
+          <input type="button" id="play" value="Show Question" />
+        </div>
+        <div id="question_div">
+          <div id="question_div_inner">
+            <p id="pytanie"></p>
+        </div>
+        <div id="play">
+          <input type="button" value="Reveal answer" id="reveal" />
+          <p id="odpowiedz"></p>
+        </div>
       </div>
     </div>
-    <div id="footer"><h1>Koks Discord &copy</h1></div>
-    <!--  <div id="button">
-      <h1>
-        <button class="buttonC" onclick="dorlmode();">D/L</button>
-      </h1>
-    </div>
-  -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="custom.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
