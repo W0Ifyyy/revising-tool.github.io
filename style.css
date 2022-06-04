@@ -122,6 +122,7 @@ input[type="button"]:active {
 }
 
 footer {
+  display: block;
   text-align: center;
 }
 
