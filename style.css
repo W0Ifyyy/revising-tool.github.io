@@ -121,6 +121,10 @@ input[type="button"]:active {
   text-align: center;
 }
 
+footer {
+  text-align: center;
+}
+
 #info {
   margin-top: 4%;
   font-size: 1.1rem;
